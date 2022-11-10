@@ -1,0 +1,44 @@
+ ***********  AYUDAS ANGULAR  **************
+
+	Tipos de datos:
+		Let
+		const
+
+		Ademas, Hay que añadirles que tipo de dato son:
+		
+		CADENAS:
+
+		let nombre:String = "Ronald";
+
+		NUMEROS:
+
+		const edad:number = 24;
+
+		ARREGLOS:
+
+		const array:number[] = [1, 2, 3, 4]
+
+
+		Eventos: tipos de eventos (click, change, input, mouseenter, mouseout, onFocus, onBlur)
+
+		Decorador (@input): Enviar informacion del padre al hijo. (PRACTICAR)
+			  (@Output): Enviar informacion del hijo al padre. (PRACTICAR
+
+		Two way binding (Objetos y sin objetos). (VER Y PRACTICAR)
+
+		To do. (VER Y PRACTICAR).
+
+		Revisar ciclo de vida del componente ******
+
+
+		*********************************** DIRECTIVAS **************************************************
+		-Cualquier elemento dentro de la plantilla HTML, ya sea etiqueta o atributo.
+		-Los componentes tambien.
+
+		Angular ofrece directivas por defecto.
+
+		Existen directivas de 2 tipos: Atributo (Atributos) y estructurales (switch, if, for..).
+
+		
+
+		
