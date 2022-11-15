@@ -1,10 +1,10 @@
- ***********  AYUDAS ANGULAR  **************
+***********  AYUDAS ANGULAR  **************
 
 	Tipos de datos:
 		Let
 		const
 
-		Ademas, Hay que añadirles que tipo de dato son:
+		Ademas, Hay que aÃ±adirles que tipo de dato son:
 		
 		CADENAS:
 
@@ -24,21 +24,39 @@
 		Decorador (@input): Enviar informacion del padre al hijo. (PRACTICAR)
 			  (@Output): Enviar informacion del hijo al padre. (PRACTICAR
 
-		Two way binding (Objetos y sin objetos). (VER Y PRACTICAR)
+		Two way binding (Objetos y sin objetos). (VER Y PRACTICAR)  OJOOOOOO
 
-		To do. (VER Y PRACTICAR).
+		To do. (VER Y PRACTICAR). OJOOOOOOOOOOOOOO
 
 		Revisar ciclo de vida del componente ******
 
 
 		*********************************** DIRECTIVAS **************************************************
+
 		-Cualquier elemento dentro de la plantilla HTML, ya sea etiqueta o atributo.
 		-Los componentes tambien.
+
+
+		NgStyle (Para modificar parte de estilo desde la vista) (Estilos).
+
+		NgModel () Para modificar una variable desde la vista y desde el codigo. (Doble enlace) (Funcionalidad).    --> IMPORTANTE
+
+		NgClass -> Para modificar la clase de un elemento html con una variable (estilos).
+
+		ngIf -> Permite colocar en true o false la visibilidad de un elemento html. (Estilos).
+
+		ngIf else -> Dependiendo de si una variable es true o false, muestra ese elemento o otro. (Estilos).
+
+		ngFor -> Repetir bloques de html cuanto queramos. (Ejemplo: iterando en un array)                        --> IMPORTANTE
+
+		ngSwitch -> 
 
 		Angular ofrece directivas por defecto.
 
 		Existen directivas de 2 tipos: Atributo (Atributos) y estructurales (switch, if, for..).
 
-		
+		Hacer To-do complejo -> Ojooooooo
 
-		
+		Hacer caja registradora -> Ojoooooo
+ 
+		Como hacer una directiva personalizada -> npx ng generate directive nombreDirectiva
