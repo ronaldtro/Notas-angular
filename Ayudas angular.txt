@@ -1,6 +1,37 @@
-***********  AYUDAS ANGULAR  **************
+ 
+
+	***********  AYUDAS ANGULAR  **************
+
+		ETIQUETAS:
+
+			<tr> //Fila
+				<th>Nombre</th> //Columna
+				<th>Apellido</th>
+				<th>Edad</th>
+			</tr>
+			<tr> //Fila
+				<td> Ronald </td> //Columna
+				<td> Castro </td> //Columna
+				<td> 24 </td> //Columna
+			</tr>
+
+
+
+		COMO CREAR PROYECTO ANGULAR: npx ng new Nombre
+
+		COMO CREAR COMPONENTE ANGULAR: ng generate component Saludo
+
+		COMPONENTE EN ANGULAR:  (HTML-CSS-TS)
+
+		ARRANCAR SERVIDOR DE ANGULAR: ng serve
+
+		PARA AGREGAR COMPONENTES: ng generate component Eventos --skipTests
+
+
 
 	Tipos de datos:
+
+
 		Let
 		const
 
@@ -21,14 +52,20 @@
 
 		Eventos: tipos de eventos (click, change, input, mouseenter, mouseout, onFocus, onBlur)
 
-		Decorador (@input): Enviar informacion del padre al hijo. (PRACTICAR)
-			  (@Output): Enviar informacion del hijo al padre. (PRACTICAR
+
+		Decorador: 
+			  (@input): Enviar informacion del padre -> hijo. (PRACTICAR)
+
+			  (@Output): Enviar informacion del hijo -> padre. (PRACTICAR
+
+
 
 		Two way binding (Objetos y sin objetos). (VER Y PRACTICAR)  OJOOOOOO
 
 		To do. (VER Y PRACTICAR). OJOOOOOOOOOOOOOO
 
 		Revisar ciclo de vida del componente ******
+
 
 
 		*********************************** DIRECTIVAS **************************************************
@@ -39,7 +76,7 @@
 
 		NgStyle (Para modificar parte de estilo desde la vista) (Estilos).
 
-		NgModel () Para modificar una variable desde la vista y desde el codigo. (Doble enlace) (Funcionalidad).    --> IMPORTANTE
+		NgModel () Para modificar una variable desde la vista y desde el codigo. (Doble enlace) (Funcionalidad).    --> IMPORTANTE -> En el app.module se importa:  import { FormsModule } from '@angular/forms'; //Para usar ngModel
 
 		NgClass -> Para modificar la clase de un elemento html con una variable (estilos).
 
@@ -55,8 +92,104 @@
 
 		Existen directivas de 2 tipos: Atributo (Atributos) y estructurales (switch, if, for..).
 
-		Hacer To-do complejo -> Ojooooooo
+		Hacer To-do complejo -> Ojooooooo        -> POR AQUI
 
 		Hacer caja registradora -> Ojoooooo
  
 		Como hacer una directiva personalizada -> npx ng generate directive nombreDirectiva
+
+		Lista de compra -> Ojoooooooo
+
+
+
+
+		******************************* ROUTING ***********************************
+
+		Comando: ng new Rutas -> Mediante la creacion de un nuevo proyecto, seleccionar la adicion de rutas (Y)
+
+		Rutas dinamicas -> ruta/1 
+
+		Rutas hijas -> ruta/1/ruta2
+
+		Limitar el acceso a ciertas rutas -> Con Wart: ng generate guard Random
+
+
+
+		***************************** SERVICIOS ************************************
+
+		Realizar acciones concretas sobre los datos de nuestra aplicacion, son utiles
+		para COMPARTIR INFORMACION sobre los distintos componentes de la aplicacion. -> BUSCAR SOBRE MANEJADORES DE ESTADO
+
+		Para usar los servicios dentro de nuestras aplicaciones se usa inyeccion de 
+		dependencias.
+
+
+		En consola: ng generate service services/Personas --skipTests
+
+
+		*** Se puede colocar que los servicios esten disponibles solo para determinados componentes
+
+		*** Uso de promesas (Cuando se resuelvan retornan) - async await
+
+		Hacer ejercicio de LISTADO DE ESCRITORES - OJOOOOOOOOOOOOOOOOOOOOO
+
+		Hacer ejercicio LISTADO DE LIBROS - OJOOOOOOOOOOOOOOOOOOOOOOOO
+
+
+
+		**************************** FORMULARIOS ****************************************
+
+		Herramienta fundamental dentro de nuestra aplicacion para recuperar informacion.
+
+		Tipos de formulario: Model (Con model - formGroup(Bootstrap) se usa una herramienta de Angular para definir la estructura del formulario desde el codigo) y template (Se hace un formulario comun y corriente con las etiquetas en el html).
+
+		Validaciones, normales y personalizadas (Se puede añadir un evento de escucha y hacer alguna accion como por ejemplo: Comprobar si un correo existe en la base de datos -> valueChanges)
+
+		Muestreo de errores en el Html.
+
+		Ejercicio: Gestion de empleados -> OJOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+
+
+		*************************** BOOTSTRAP ***************************************
+
+		Instalar Bootstrap: npm install bootstrap
+
+		
+
+		************************** Conexion HTTP ************************************
+
+		
+		Componente -> Modulo -> Servicios
+
+		Modelo cliente - servidor: La comunicacion entre ellos se hace mediante el protocolo http.
+
+
+		PROTOCOLO HTTP:
+
+ 		- Metodo: GET, PUT, POST, PATCH, DELETE.
+
+		- Url
+
+		- Headers
+
+		- Body
+
+
+		Ejercicio: Paises de europa y Rick-Morty
+
+
+
+		*************************** PIPES *********************************************
+
+		input -> transform -> Output
+	
+		{{ nombre | uppercase }}
+		{{ nombre | lowercase }}
+		{{ moneda | currency:'ARS' }}
+
+		
+		*************************** TESTING *******************************************
+
+		
+
+
