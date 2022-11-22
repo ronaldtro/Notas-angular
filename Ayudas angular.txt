@@ -88,6 +88,7 @@
 
 		ngSwitch -> 
 
+
 		Angular ofrece directivas por defecto.
 
 		Existen directivas de 2 tipos: Atributo (Atributos) y estructurales (switch, if, for..).
@@ -96,7 +97,7 @@
 
 		Hacer caja registradora -> Ojoooooo
  
-		Como hacer una directiva personalizada -> npx ng generate directive nombreDirectiva
+		Como hacer una directiva personalizada -> npx ng generate directive nombreDirectiva   -> IMPORTANTE (Renderer, hostListener, hostBinding)
 
 		Lista de compra -> Ojoooooooo
 
@@ -189,7 +190,3 @@
 
 		
 		*************************** TESTING *******************************************
-
-		
-
-
