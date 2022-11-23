@@ -108,11 +108,15 @@
 
 		Comando: ng new Rutas -> Mediante la creacion de un nuevo proyecto, seleccionar la adicion de rutas (Y)
 
-		Rutas dinamicas -> ruta/1 
+		0) Rutas estaticas
 
-		Rutas hijas -> ruta/1/ruta2
+		1) Rutas dinamicas -> ruta/1 
 
-		Limitar el acceso a ciertas rutas -> Con Wart: ng generate guard Random
+		2) Rutas hijas -> ruta/1/ruta2
+
+		3) Limitar el acceso a ciertas rutas -> Con Wart: ng generate guard Random
+
+			
 
 
 
@@ -190,3 +194,6 @@
 
 		
 		*************************** TESTING *******************************************
+
+		
+
